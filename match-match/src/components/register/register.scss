@@ -1,0 +1,112 @@
+.register-window {
+  position: absolute;
+  z-index: 100;
+  top: calc(50vh - 230px);
+  left: calc(50vw - 319px);
+  background-color: #FAFAFA;
+  width: 639px;
+  height: 460px;
+  padding: 21px;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.register-wrapper {
+
+}
+.register-row {
+  display: flex;
+ }
+.user-bio {
+
+ }
+.register__form {
+  display: flex;
+  flex-direction: column;
+}
+.user-avatar {
+  width: 198px;
+  height: 198px;
+  border-radius: 50%;
+  background-image: url('../../assets/image/set-avatar.png');
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  margin-top: 55px;
+  margin-left: 50px;
+ }
+.register-buttons {
+  display: flex;
+  width: 218px;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 26px;
+  right: 19px;
+}
+.register__form {
+  margin-top: 55px;
+}
+.register__items {
+  display: flex;
+  width: 328px;
+  background-color: rgba(33, 33, 33, 0.08);
+  border-bottom: 1px solid  rgba(33, 33, 33, 0.5);
+  border-radius: 5px 5px 0 0;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+    }
+}
+.register__inputs {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0 10px 52px;
+
+  & input {
+    background-color: rgba(33, 33, 33, 0.0);
+    border: none;
+    width: 220px;
+    margin-right: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+
+    // &:valid {
+    //   //background-color: rgba(33, 33, 33, 0.0);
+    //   background-color: greenyellow;
+    // }
+
+    // &:valid > .valid-flag{
+    //   background-image: url('./assets/image/validation.svg');
+    // }
+  }
+  & label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: rgba(0, 0, 0, 0.38)
+  }
+}
+.valid-flag {
+  //background-image: url('./assets/image/validation.svg');
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-position: center;
+  margin: auto 0 auto 0;
+}
+
+// input:valid .valid-flag {
+//   background-image: url('./assets/image/validation.svg');
+// }
+
+#email:valid {
+  // background-image: url('./assets/image/validation.svg');
+  background-color: greenyellow;
+}

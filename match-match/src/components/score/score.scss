@@ -1,0 +1,38 @@
+.score-wrapper {
+  width: 1000px;
+  height: 802px;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin: 47px auto 0 auto;
+  padding: 48px 98px 0 56px ;
+}
+.score-list {
+  margin-top: 24px;
+  width: 100%;
+ }
+.score-line {
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  padding-bottom: 5px;
+}
+.score-avatar {
+  background-image: url('../../assets/image/set-avatar.png');
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-position: center;
+  margin-right: 16px;
+}
+.score-bio {
+  flex-grow: 1;
+}
+.score-name { }
+.score-email { }
+.score-points {
+  margin-top: 10px;
+}
+.score-points span{
+  color: #2196F3;
+
+}

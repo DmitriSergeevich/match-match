@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+  color: #333333;
+}
+.button {
+  border: none;
+}
+.button__base {
+  padding: 10px 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  margin: 0 0 0 0;
+  flex: 0 0 auto;
+}
+.button__white {
+  color: #2196F3;
+
+  &:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border: 2px solid #FFFFFF;
+  }
+}
+.button__blue {
+  color: #FFFFFF;
+  background-color: #2196F3;
+  &:hover {
+    //color: #2196F3;
+    //background-color: #E3F2FD;
+    //border: 2px solid #2196F3;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+  }
+}
+.button__light-blue {
+  color: #2196F3;
+  background-color: #E3F2FD;
+  &:hover {
+    //color: #FFFFFF;
+    //background-color: #2196F3;
+    //border: 2px solid #FFFFFF;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+  }
+}
